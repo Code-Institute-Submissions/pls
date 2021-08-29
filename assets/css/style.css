@@ -10,3 +10,47 @@ h1,h2,h3 {
 	font-family: 'Arial', 'Brush Script MT', cursive;
 }
 
+
+.business-background {
+	background-image: url("/assets/images/van2.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	overflow: hidden;
+
+	
+}
+.product {
+	
+	color: #ffffff;
+	background-color:rgba(0, 0, 0, .4);
+	height: 300px;
+	float: left;
+	padding: 30px 0 0 10px;
+	text-align: center;
+	border-radius: 5%;
+	margin: 2px;
+	position: relative;
+
+}
+
+
+
+.product h3 {
+	color: #ffffff;
+}
+
+.btn {
+	margin-left: -10%;
+	position: absolute;
+	bottom: 10px;
+	
+}
+footer > span {
+	color: silver;
+}
+
+
+	
+}
