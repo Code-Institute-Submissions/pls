@@ -95,6 +95,33 @@ footer > span {
 	color: silver;
 }
 
+.row {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.box {
+	height: 60px;
+    width: 33%;
+    display: inline-block;
+   
+  }
+
+  #c-right p {
+	text-align: right;
+  }
+
+  #times li {
+	  text-align: center;
+  }
+  #times h3 {
+	  text-align: center;
+  }
+
+
+
+
 
 	
 
