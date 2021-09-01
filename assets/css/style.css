@@ -91,34 +91,16 @@ ul {
 	bottom: 10px;
 	
 }
-footer > span {
-	color: silver;
+.end {
+	width: auto;
+	height: 200px;
+	float: left;
+	padding: 30px 0 0 10px;
+	text-align: center;
+	border-radius: 2%;
+	margin: 2px;
+	position: relative;
 }
-
-.row {
-	width: 100%;
-	margin: 0 auto;
-}
-
-
-.box {
-	height: 60px;
-    width: 33%;
-    display: inline-block;
-   
-  }
-
-  #c-right p {
-	text-align: right;
-  }
-
-  #times li {
-	  text-align: center;
-  }
-  #times h3 {
-	  text-align: center;
-  }
-
 
 
 
