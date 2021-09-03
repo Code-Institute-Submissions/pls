@@ -4,6 +4,15 @@
 	padding:0;
 	border:0;
 }
+
+/*.navbar-brand {
+	position: absolute;
+	width: 100%;
+	right: 0;
+	text-align: center;
+	margin: auto;
+	padding-top: 10px;*/
+}
 body {
 	font-family:  'Arial', sans-serif;
 	margin: 0;
@@ -46,14 +55,35 @@ h1,h2,h3 {
 #cover-text, #cover-text h2 {
 	color:#ffffff;
 }
-
-#cover-text {
+#cover-text-upper {
 	font-size: 130%;
 	font-family: Oswald;
 	text-transform: uppercase;
 	letter-spacing: 4px;
+	color: #ffffff;
 
-	width: 800px;
+	width: 650px;
+	height: 100px;
+	border-radius: 2%;
+
+	padding-top: 40px;
+	padding-left: 10px;
+
+	background-color: rgba(51, 45, 108, .7);
+
+	top: 30px;
+	left: 150px;
+
+	position: absolute;
+}
+#cover-text-lower {
+	font-size: 130%;
+	font-family: Oswald;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #ffffff;
+
+	width: 600px;
 	height: 200px;
 	border-radius: 2%;
 
@@ -105,6 +135,45 @@ ul {
 	margin: 2px;
 	position: relative;
 }
+
+@media screen and (max-width: 1200px) {
+	#cover-text-upper {
+		text-align: center;
+		left: 0;
+	}
+	#cover-text-lower {
+		text-align: center;
+		left: 0;
+	}
+
+@media screen and (max-width: 640px) {
+	
+	}	
+		#cover-text-upper {
+			width: 300px;
+			height: 150px;
+			padding: 20px 0px 0px 20px;
+			
+		}
+
+		#cover-text-lower {
+			width: 300px;
+			height: 150px;
+			padding: 20px 0px 0px 20px;
+			
+		}
+
+		#cover-text-upper h2 {
+		left: 0px;
+		font-size: 100%;
+		text-align: left;
+	}
+		#cover-text-lower h2 {
+		left: 0px;
+		font-size: 100%;
+		text-align: left;
+		
+	}
 
 
 
