@@ -5,22 +5,35 @@
 	border:0;
 }
 
-/*.navbar-brand {
-	position: absolute;
-	width: 100%;
-	right: 0;
-	text-align: center;
-	margin: auto;
-	padding-top: 10px;*/
+
 }
 body {
 	font-family:  'Arial', sans-serif;
 	margin: 0;
 	background-color: whitesmoke;
+	max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 h1,h2,h3 {
 	font-family: 'Arial', 'Brush Script MT', cursive;
+}
+#cover-text-top {
+	font-size: 130%;
+	font-family: Oswald;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #562680;
+
+	padding-top: 40px;
+	padding-left: 10px;
+
+	top: 4px;
+    right: 478px;
+
+	position: initial;
 }
 
 .navbar {
@@ -29,7 +42,7 @@ h1,h2,h3 {
 #main-image {
 	height: 600px;
 	width: 100%;
-	background: url("./assets/images/van2.jpg") no-repeat center center;
+	background: url("https://starranuk.github.io/pls/assets/images/van2.jpg") no-repeat center center;
 	
 	animation-name: hero-zoom;
 	animation-duration: 5s;
@@ -55,6 +68,7 @@ h1,h2,h3 {
 #cover-text, #cover-text h2 {
 	color:#ffffff;
 }
+
 #cover-text-upper {
 	font-size: 130%;
 	font-family: Oswald;
