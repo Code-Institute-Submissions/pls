@@ -5,7 +5,9 @@
 	border:0;
 }
 
-
+.nav-link {
+	color: #562680;
+}
 }
 body {
 	font-family:  'Arial', sans-serif;
@@ -20,7 +22,9 @@ body {
 h1,h2,h3 {
 	font-family: 'Arial', 'Brush Script MT', cursive;
 }
-#cover-text-top {
+.navbar-toggler-icon { margin-left: auto; }
+
+/**#cover-text-top {
 	font-size: 230%;
 	font-family: Oswald;
 	text-transform: uppercase;
@@ -38,7 +42,7 @@ h1,h2,h3 {
     right: 478px;
 
 	position: absolute;
-}
+}**/
 
 .navbar {
 	background-color: whitesmoke;
