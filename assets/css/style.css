@@ -5,9 +5,10 @@
 	border:0;
 }
 
-.nav-link {
+.navbar-brand {
 	color: #562680;
 }
+
 }
 body {
 	font-family:  'Arial', sans-serif;
@@ -162,6 +163,55 @@ ul {
 	border-radius: 2%;
 	margin: 2px;
 	position: relative;
+}
+
+/* Contact Page */
+#contact-form {
+	background: url("https://starranuk.github.io/pls/assets/images/van2.jpg");
+	
+	padding: 30 0;
+    clear: both;
+   
+    background-size: cover;
+  	background-position: center;
+  	height: 600px;
+}
+
+#form-block{
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    width: 50%;
+	border-radius: 4%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.text-input {
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(254, 254, 254, 0.3);
+    border-radius: 5px;
+  }
+  label {
+    line-height: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+    padding:0;
+  }
+
+ 
+
+  .submit-button {
+	border-radius: 3px;
+	color:#999999;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+
 }
 /*iMac Pro*/
 @media screen and (max-width: 5000px) {
