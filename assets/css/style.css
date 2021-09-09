@@ -164,26 +164,59 @@ ul {
 	margin: 2px;
 	position: relative;
 }
+/*Hire Page*/
 
+#hire-outer{
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+#hire-image {
+	height: 600px;
+	width: 100%;
+	background: url("https://starranuk.github.io/pls/assets/images/hire.png")no-repeat center center;
+}
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+  }
 /* Contact Page */
 #contact-form {
 	background: url("https://starranuk.github.io/pls/assets/images/van2.jpg");
-	
 	padding: 30 0;
-    clear: both;
-   
     background-size: cover;
   	background-position: center;
   	height: 800px;
+	
 }
 
 #form-block{
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(51, 45, 108, .7);
     width: 50%;
 	border-radius: 4%;
     margin: 0 auto;
     padding: 30px;
+	
+
 }
 
 .text-input {
