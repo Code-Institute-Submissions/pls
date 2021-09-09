@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Principle Lifting and Safety</title>
+    <title>Principle Lifting and Safety | Contact</title>
     <!--Bootstrap 5 cached version of Bootstrap’s compiled CSS and JS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
@@ -49,24 +49,36 @@
 
         <div id="form-block"> 
                 <div id="form-overview">
-                    <h3 class="form-heading ">Contact</h3>
+                  <h3 class="contact-text">Contact</h3>
                   <h4 class="contact-text">You can get in touch to enquire about any of our products and services in a number of ways:</h4>
-                  <h4 class="contact-text">OR</h3>
+                  <h4 class="contact-text">OR</h4>
                   <h4 class="contact-text">TELEPHONE 02921 322700 with your enquiry</h4>
                   <form class="signup-form" method="post" action="#" novalidate="novalidate">
                     <fieldset>
-                    <legend>Contact Details</legend>
-                    <label for="fname">First Name</label>
-                    <input id="fname" class="text-input" type="text" name="fname"/>
-                    <label for="lname">Last Name</label>
-                    <input id="lname" class="text-input" type="text" name="lname"/>
-                    <label for="compamy-name">Company Name</label>
-                    <input id="compamy-name" class="text-input" type="text" name="compamy-name"/>
-                    <label for="email-address">Contact Email Address</label>
-                    <input id="email-address" class="text-input" type="email" name="email" />
-                    <label for="telephone-num">Contact Email Address</label>
-                    <input id="telephone-num" class="text-input" type="telephone" name="telephone" />
-                </fieldset>
+                      <legend>Contact Details</legend>
+                      <label for="fname">First Name</label>
+                      <input id="fname" class="text-input" type="text" name="fname"/>
+                      <label for="lname">Last Name</label>
+                      <input id="lname" class="text-input" type="text" name="lname"/>
+                      <label for="compamy-name">Company Name</label>
+                      <input id="compamy-name" class="text-input" type="text" name="compamy-name"/>
+                      <label for="email-address">Contact Email Address</label>
+                      <input id="email-address" class="text-input" type="email" name="email" />
+                      <label for="telephone-num">Contact Telephone Number</label>
+                      <input id="telephone-num" class="text-input" type="telephone" name="telephone" />
+                  </fieldset>
+                  <legend>Preference of how you would like to be contacted</legend>
+                                        
+                                        <div class="contact-preference">
+                                                <label  class="method" for="road">Email</label>
+                                                <input type="radio" id="email"  name="contact-type" value="Email"> 
+                                                <label  class="preference-label" for="trail">Telephone</label>
+                                                <input type="radio" id="Telephone"  name="contact-type" value="Telephone"> 
+                                                <label  class="preference-label" for="Either">Both</label>
+                                                <input type="radio" id="eitherEitherEitherEitherEitherEitherEither"  name="contact-type" value="Either"> 
+                                        </div>
+                    
+                                    </fieldset>
                    
                     <button class="submit-button">Submit</button>
                   </form>
