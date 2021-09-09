@@ -178,45 +178,49 @@ ul {
 	width: 100%;
 	background: url("https://starranuk.github.io/pls/assets/images/hire.png")no-repeat center center;
 }
-div.gallery {
-	margin: 5px;
-	border: 1px solid #ccc;
-	float: left;
-	width: 180px;
-  }
-  
-  div.gallery:hover {
-	border: 1px solid #777;
-  }
-  
-  div.gallery img {
-	width: 100%;
-	height: auto;
-  }
-  
-  div.desc {
-	padding: 15px;
-	text-align: center;
-  }
+#cover-text-hire {
+	font-size: 130%;
+	font-family: Oswald;
+	letter-spacing: 4px;
+	color: #ffffff;
+
+	width: 650px;
+	height: 500px;
+	border-radius: 2%;
+
+	padding-top: 40px;
+	padding-left: 10px;
+
+	background-color: rgba(51, 45, 108, .7);
+
+	top: 30px;
+	left: 50px;
+
+	position: absolute;
+
 /* Contact Page */
-#contact-form {
+#contact-form-container {
 	background: url("https://starranuk.github.io/pls/assets/images/van2.jpg");
 	padding: 30 0;
     background-size: cover;
   	background-position: center;
   	height: 800px;
+	position: relative;
 	
 }
 
-#form-block{
+#form-block {
     color: #fff;
     background-color: rgba(51, 45, 108, .7);
-    width: 50%;
+    width: 40%;
+	position: absolute;
+	margin: 0 auto;
 	border-radius: 4%;
-    margin: 0 auto;
     padding: 30px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	
-
 }
 
 .text-input {
@@ -245,6 +249,10 @@ div.gallery {
 	font-size: 16px;
 
 }
+
+.signup-form {
+    margin-top: 35px;
+  }
 /*iMac Pro*/
 @media screen and (max-width: 5000px) {
 
@@ -279,6 +287,7 @@ div.gallery {
 			height: 150px;
 			padding: 20px 0px 0px 20px;
 			
+			
 		}
 
 		#cover-text-lower {
@@ -305,13 +314,13 @@ div.gallery {
 			
 	}
 		.contact-text {
-			font-size: 100%;
+			font-size: 80%;
 	}
 		legend {
-			font-size: 100%;
+			font-size: 80%;
 		}
 		label {
-			font-size: 80%;
+			font-size: 60%;
 	
 		}
 
@@ -323,6 +332,13 @@ div.gallery {
 			padding: 10px 25px;
 			font-size: 12px;
 		}
+		/*Hire*/
+
+		}
+		.hire-p {
+			font-size: 20%;
+		}
+
 		
 
 
