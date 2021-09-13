@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap");
 *{
 	margin:0;
 	padding:0;
@@ -10,10 +10,14 @@
     border: none;
 }
 
-
+.navbar-brand img {
+	width: 40%;
+	height: 40%;
 }
+
+
 body {
-	font-family:  'Arial', sans-serif;
+	font-family:  "Arial", sans-serif;
 	margin: 0;
 	background-color: #f8f9fa;
 	max-width: 2000px;
@@ -23,29 +27,9 @@ body {
 }
 
 h1,h2,h3 {
-	font-family: 'Arial', 'Brush Script MT', cursive;
+	font-family: "Arial", "Brush Script MT", cursive;
 }
 .navbar-toggler-icon { margin-left: auto; }
-
-/**#cover-text-top {
-	font-size: 230%;
-	font-family: Oswald;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	color: #562680;
-	text-align:center;
-	margin-left: auto;
-    margin-right: auto;
-	
-
-	padding-top: 40px;
-	padding-left: 10px;
-
-	top: 4px;
-    right: 478px;
-
-	position: absolute;
-}**/
 
 .navbar {
 	background-color: ghostwhite;
@@ -168,18 +152,9 @@ ul {
 }
 /*Hire Page*/
 
-#hire-outer{
-	height: 600px;
-	width: 100%;
-	overflow: hidden;
-	position: relative;
-}
 
-#hire-image {
-	height: 600px;
-	width: 100%;
-	background: url("https://starranuk.github.io/pls/assets/images/hire.png")no-repeat center center;
-}
+
+/*
 #cover-text-hire {
 	font-size: 130%;
 	font-family: Oswald;
@@ -199,7 +174,47 @@ ul {
 	left: 50px;
 
 	position: absolute;
-}
+}*/
+
+/*Sales*/
+.container {
+	position: relative;
+	width: 50%;
+  }
+  
+  .image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+  }
+  
+  .middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+	opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+	opacity: 1;
+  }
+  
+  .text {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+  }
 /* Contact Page */
 
 #contact-form-container{
@@ -258,7 +273,7 @@ ul {
   }
 /*iMac Pro*/
 @media screen and (max-width: 5000px) {
-
+	
 
 	#cover-text-upper {
 		text-align: center;
