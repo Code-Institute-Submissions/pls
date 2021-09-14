@@ -34,6 +34,7 @@ h1,h2,h3 {
 .navbar {
 	background-color: ghostwhite;
 }
+
 #main-image {
 	height: 600px;
 	width: 100%;
@@ -145,11 +146,21 @@ ul {
 	height: 200px;
 	float: left;
 	padding: 30px 0 0 10px;
-	text-align: center;
+	text-align: left;
 	border-radius: 2%;
 	margin: 2px;
 	position: relative;
 }
+
+strong {
+	font-weight: bold;
+}
+
+iframe {
+	width: 100%; 
+	height: 200px;   
+}
+
 /*Hire Page*/
 .brand-color {
 	background-color: rgba(51, 45, 108, .7);
@@ -297,6 +308,10 @@ ul {
 @media screen and (max-width: 320px) {
 	
 	}	
+		.navbar-nav h4 {
+		font-size: 100%;
+		}
+
 		#cover-text-upper {
 			
 			width: 300px;
