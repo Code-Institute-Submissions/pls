@@ -109,7 +109,7 @@ h1,h2,h3 {
 .product {
 	
 	color: #f8f9fa;
-	background-color:rgba(51, 45, 108, .7);
+	background-color:rgb(86,38,128, .7);
 	width: 100%;
 	height: 300px;
 	float: left;
@@ -151,8 +151,28 @@ ul {
 	position: relative;
 }
 /*Hire Page*/
+.brand-color {
+	background-color: rgba(51, 45, 108, .7);
+}
+.hire-item {
+	
 
+	float: left;
+	
+	text-align: center;
+	border-radius: 2%;
+	margin: 2px;
+	position: relative;
 
+}
+.hire-item img {
+	border-radius: 2%;	
+}
+
+.hire-item p {
+	text-align: center;
+	color: #f8f9fa;
+}
 
 /*
 #cover-text-hire {
@@ -222,7 +242,7 @@ ul {
 	padding: 30 0;
     background-size: cover;
   	background-position: center;
-  	height: 800px;
+  	height: 1300px;
 	position: relative;
 	
 }
