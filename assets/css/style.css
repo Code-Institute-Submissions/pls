@@ -18,9 +18,10 @@
 
 body {
 	font-family:  "Arial", sans-serif;
-	margin: 0;
+	margin: 0px;
 	background-color: #f8f9fa;
 	max-width: 2000px;
+	/*Code below suggested by Mentor to align anything with body*/
     margin-left: auto;
     margin-right: auto;
 
@@ -46,8 +47,8 @@ h1,h2,h3 {
 }
 
 #main-outer {
-	height:600px;
-	width:100%;
+	height: 600px;
+	width: 100%;
 	overflow: hidden;
 	position: relative;
 }
@@ -114,32 +115,17 @@ h1,h2,h3 {
 	width: 100%;
 	height: 300px;
 	float: left;
-	padding: 30px 0 0 10px;
+	padding: 10px 5px 5px 10px;
 	text-align: center;
 	border-radius: 2%;
-	margin: 2px;
+	margin: 7px;
 	position: relative;
 
 }
-ul {
-	list-style-type: none;
-   }
 
 .product h3 {
 	color: #f8f9fa;
-}
-/*
-.button-align {
-
-	text-align:center;
-}*/
-.btn {
-	display: inline-block;
-	float: none;
-	position: absolute;
-	bottom: 10px;
-	margin-left: -8%;
-	
+	text-align: center;
 }
 
 /*Footer*/
@@ -147,7 +133,7 @@ ul {
 	text-align: center;
 	width: 100%;
 	height: 300px;
-	padding: 10px 0 0 10px;
+	padding: 40px 0 0 10px;
 	position: relative;
 }
 
@@ -155,15 +141,28 @@ strong {
 	font-weight: bold;
 }
 
+.end ul {
+	list-style-type: none;/*W3Schools*/
+}
 iframe {
 	width: 100%; 
 	height: 200px;   
 }
 
+.top-nav {
+	
+	background-color:rgb(86,38,128, .7);
+	border-radius: 3%;
+	float: right;
+}
+
+.top-nav a {
+	color: #f8f9fa;
+}
+
 /*Hire Page*/
 .brand-color {
 	background-color: rgba(51, 45, 108, .7);
-	height: 800px;
 	width: 100%;
 }
 .hire-item {
@@ -184,45 +183,7 @@ iframe {
 }
 
 
-/*Sales*/
-.container {
-	position: relative;
-	width: 50%;
-  }
-  
-  .image {
-	opacity: 1;
-	display: block;
-	width: 100%;
-	height: auto;
-	transition: .5s ease;
-	backface-visibility: hidden;
-  }
-  
-  .middle {
-	transition: .5s ease;
-	opacity: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%)
-  }
-  
-  .container:hover .image {
-	opacity: 0.3;
-  }
-  
-  .container:hover .middle {
-	opacity: 1;
-  }
-  
-  .text {
-	background-color: #4CAF50;
-	color: white;
-	font-size: 1rem;
-	padding: 16px 32px;
-  }
+
 /* Contact Page */
 
 #contact-form-container {
@@ -260,21 +221,38 @@ iframe {
 	margin-right: 10px;
     border: 1px solid rgba(254, 254, 254, 0.3);
     border-radius: 5px;
+	padding: 5px 0 0 5px;
   }
+
+textarea {
+	background-color: #fff;
+    color: #562680;
+	width: 100%;
+	height: 80px;
+	border-radius: 5px;
+	margin-top: 20px;
+    margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px 0 0 5px;
+	border: 1px solid rgba(254, 254, 254, 0.3);
+}
+
   label {
     line-height: 100%;
     margin-bottom: 5px;
     font-size: 1.063rem;
     padding:0;
+	padding-bottom: 15px;
   }
 
 
   .submit-button {
 	border-radius: 3px;
 	color:#999999;
-	padding: 15px 32px;
+	padding: 10px 32px;
 	text-align: center;
-	font-size: 16px;
+	font-size: 1rem;
 
 }
 
@@ -328,19 +306,22 @@ iframe {
 		}
 
 		#cover-text-upper h2 {
-		left: 0px;
-		font-size: 80%;
-		text-align: left;
+			left: 0px;
+			font-size: 80%;
+			text-align: left;
 	}
 		#cover-text-lower h2 {
-		left: 0px;
-		font-size: 80%;
-		text-align: left;
+			left: 0px;
+			font-size: 80%;
+			text-align: left;
 		
+	}
+		.top-nav {
+			margin: auto;
 	}
 		/*Contact Form*/
 		#contact-form-container {
-			height: 800px;
+			height: 1000px;
 			
 	}
 		#form-block {

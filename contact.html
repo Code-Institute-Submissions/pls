@@ -26,8 +26,7 @@
                         <div class="navbar-nav">
                            <a class="nav-link" href="index.html"><h4>Home</h4></a>
                            <a class="nav-link" href="hire.html"><h4>Hire</h4></a>
-                           <a class="nav-link" active" aria-current="page" href="contact.html"><h4>Contact</h4></a>
-                           </a>
+                           <a class="nav-link active" aria-current="page" href="contact.html"><h4>Contact</h4></a>
                         </div>
                      </div>
                   </div>
@@ -38,26 +37,29 @@
       <section id="contact-form-container">
          <div id="form-block">
             <div id="form-overview">
-               <h4 class="contact-text">You can get in touch to enquire about any of our products and services via the Contact Form below:</h4>
-               <h4 class="contact-text">OR</h4>
+               <h4 class="contact-text">For a Technical Team member to contact you complete the form:</h4>
+               <h4 class="contact-text">Or</h4>
                <h4 class="contact-text">Telephone 02921 322700 with your enquiry</h4>
                <form class="signup-form" method="post" action="https://formdump.codeinstitute.net">
                   <fieldset>
                      <legend>Contact Details</legend>
                      <label for="fname">First Name</label>
-                     <input id="fname" class="text-input" type="text" name="fname"/>
+                     <input id="fname" class="text-input" type="text" name="fname" required/>
                      <label for="lname">Last Name</label>
-                     <input id="lname" class="text-input" type="text" name="lname"/>
+                     <input id="lname" class="text-input" type="text" name="lname" required/>
                      <label for="company-name">Company Name</label>
-                     <input id="company-name" class="text-input" type="text" name="company-name"/>
+                     <input id="company-name" class="text-input" type="text" name="company-name" required/>
                      <label for="email-address">Contact Email Address</label>
-                     <input id="email-address" class="text-input" type="email" name="email" />
+                     <input id="email-address" class="text-input" type="email" name="email" required/>
                      <label for="telephone-num">Contact Telephone Number</label>
-                     <input id="telephone-num" class="text-input" type="tel" name="telephone"/>
+                     <input id="telephone-num" class="text-input" type="tel" name="telephone" required/>
+                     <label for="enquiry">Purpose of Enquiry</label>
+                     <textarea id="enquiry" name="comment" class="enquiry" placeholder="Please briefly outline your query" required></textarea> <!--Reference Rebecca Kelsall
+                        crypticCaroline/MS1-Plantfactory-->
                      <h4>Preference of how you would like to be contacted:</h4>
                      <div class="contact-preference">
                         <label  class="preference-label" for="email">Email</label>
-                        <input type="radio" id="email"  name="contact-type" value="Email"> 
+                        <input type="radio" id="email"  name="contact-type" value="Email" Checked> 
                         <label  class="preference-label" for="telephone">Telephone</label>
                         <input type="radio" id="telephone"  name="contact-type" value="Telephone"> 
                         <label  class="preference-label" for="either">Either</label>
@@ -70,7 +72,7 @@
          </div>
       </section>
       <footer>
-         <a href="#top">Back to top of page</a>
+         <div class="top-nav"><a href="#top">top</a></div>
          <div class="container-fluid">
             <div class="row">
                <div class="col-sm-4">
