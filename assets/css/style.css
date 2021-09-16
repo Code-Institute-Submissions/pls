@@ -163,7 +163,7 @@ iframe {
 /*Hire Page*/
 .brand-color {
 	background-color: rgba(51, 45, 108, .7);
-	
+	height: 800px;
 	width: 100%;
 }
 .hire-item {
