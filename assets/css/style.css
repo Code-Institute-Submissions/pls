@@ -4,7 +4,7 @@
 	padding:0;
 	border:0;
 }
-
+/*Navbar*/
 .navbar-default {
     background-color: transparent;
     border: none;
@@ -15,6 +15,15 @@
 	height: 40%;
 }
 
+.navbar-light .navbar-nav .nav-link { /*Stack Overflow*/    
+	color: red;
+}
+
+.navbar-toggler-icon { margin-left: auto; } /*Stack Overflow*/
+
+.navbar {
+	background-color: ghostwhite;
+}
 
 body {
 	font-family:  "Arial", sans-serif;
@@ -24,23 +33,17 @@ body {
 	/*Code below suggested by Mentor to align anything with body*/
     margin-left: auto;
     margin-right: auto;
-
 }
 
-h1,h2,h3 {
+h2,h3 {
 	font-family: "Arial", "Brush Script MT", cursive;
 }
-.navbar-toggler-icon { margin-left: auto; }
 
-.navbar {
-	background-color: ghostwhite;
-}
-
+/*Insperation from Code Institute “Love Running” tutorial site*/
 #main-image {
 	height: 600px;
 	width: 100%;
 	background: url("https://starranuk.github.io/pls/assets/images/van2.jpg") no-repeat center center;
-	
 	animation-name: hero-zoom;
 	animation-duration: 5s;
 	animation-fill-mode: forwards;
@@ -72,44 +75,34 @@ h1,h2,h3 {
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	color: #f8f9fa;
-
 	width: 650px;
 	height: 100px;
 	border-radius: 2%;
-
 	padding-top: 30px;
 	padding-left: 10px;
-
 	background-color: rgba(51, 45, 108, .7);
-
 	top: 30px;
 	left: 150px;
-
 	position: absolute;
 }
+
 #cover-text-lower {
 	font-size: 2rem;
 	font-family: Oswald;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	color: #ffffff;
-
 	width: 600px;
 	height: 200px;
 	border-radius: 2%;
-
 	padding-top: 40px;
 	padding-left: 10px;
-
 	background-color: rgba(51, 45, 108, .7);
-
 	bottom: 30px;
 	right: 150px;
-
 	position: absolute;
 }
 .product {
-	
 	color: #f8f9fa;
 	background-color:rgb(86,38,128, .7);
 	width: 100%;
@@ -120,7 +113,6 @@ h1,h2,h3 {
 	border-radius: 2%;
 	margin: 7px;
 	position: relative;
-
 }
 
 .product h3 {
@@ -141,9 +133,11 @@ strong {
 	font-weight: bold;
 }
 
-.end ul {
+.end li {
 	list-style-type: none;/*W3Schools*/
+	text-align: center;
 }
+
 iframe {
 	width: 100%; 
 	height: 200px;   
@@ -165,14 +159,15 @@ iframe {
 	background-color: rgba(51, 45, 108, .7);
 	width: 100%;
 }
+
 .hire-item {
 	float: left;
 	text-align: center;
 	border-radius: 2%;
 	margin: 2px;
 	position: relative;
-
 }
+
 .hire-item img {
 	border-radius: 2%;	
 }
@@ -182,10 +177,8 @@ iframe {
 	color: #f8f9fa;
 }
 
-
-
 /* Contact Page */
-
+/*Insperation from Code Institute “Love Running” tutorial site*/
 #contact-form-container {
 	background: url("https://starranuk.github.io/pls/assets/images/van2.jpg");
 	padding: 30 0;
@@ -193,7 +186,6 @@ iframe {
   	background-position: center;
   	height: 1200px;
 	position: relative;
-	
 }
 
 #form-block {
@@ -207,7 +199,6 @@ iframe {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	
 }
 
 .text-input {
@@ -222,7 +213,7 @@ iframe {
     border: 1px solid rgba(254, 254, 254, 0.3);
     border-radius: 5px;
 	padding: 5px 0 0 5px;
-  }
+}
 
 textarea {
 	background-color: #fff;
@@ -244,8 +235,7 @@ textarea {
     font-size: 1.063rem;
     padding:0;
 	padding-bottom: 15px;
-  }
-
+}
 
   .submit-button {
 	border-radius: 3px;
@@ -253,12 +243,11 @@ textarea {
 	padding: 10px 32px;
 	text-align: center;
 	font-size: 1rem;
-
 }
 
 .signup-form {
     margin-top: 35px;
-  }
+}
 /*iMac Pro*/
 @media screen and (max-width: 5000px) {
 	
@@ -281,7 +270,6 @@ textarea {
 	#cover-text-lower {
 		text-align: center;
 		left: 0;
-		
 	}
 
 	/*iPhone 5/SE*/
