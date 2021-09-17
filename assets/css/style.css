@@ -103,8 +103,8 @@ h2,h3 {
 	position: absolute;
 }
 .product {
-	color: #f8f9fa;
-	background-color:rgb(86,38,128, .7);
+	color: #ffffff;
+	background-color:rgb(51, 45, 108, .7);
 	width: 100%;
 	height: 300px;
 	float: left;
@@ -116,7 +116,7 @@ h2,h3 {
 }
 
 .product h3 {
-	color: #f8f9fa;
+	color: #ffffff;
 	text-align: center;
 }
 
@@ -145,13 +145,13 @@ iframe {
 
 .top-nav {
 	
-	background-color:rgb(86,38,128, .7);
+	background-color:rgb(51, 45, 108, .7);
 	border-radius: 3%;
 	float: right;
 }
 
 .top-nav a {
-	color: #f8f9fa;
+	color: #ffffff;
 }
 
 /*Hire Page*/
@@ -174,7 +174,7 @@ iframe {
 
 .hire-item p {
 	text-align: center;
-	color: #f8f9fa;
+	color: #ffffff;
 }
 
 /* Contact Page */
@@ -189,7 +189,7 @@ iframe {
 }
 
 #form-block {
-    color: #fff;
+    color: #ffffff;
     background-color: rgba(51, 45, 108, .7);
     width: 40%;
 	position: absolute;
@@ -202,7 +202,7 @@ iframe {
 }
 
 .text-input {
-    background-color: #fff;
+    background-color: #ffffff;
     color: #562680;
     width: 100%;
     height: 40px;
@@ -216,7 +216,7 @@ iframe {
 }
 
 textarea {
-	background-color: #fff;
+	background-color: #ffffff;
     color: #562680;
 	width: 100%;
 	height: 80px;
