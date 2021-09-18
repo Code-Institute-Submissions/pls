@@ -1,9 +1,12 @@
 
-<![endif]-->
 
-![Responsive Site](https://starranuk.github.io/pls/workspace/pls/assets/readme_files/multi_resp_index_html.png)
+![responsive site](https://starranuk.github.io/pls//assets/readme_files/multi_resp_index_html.png)
 
-**Principle Lifting and Safety Ltd**
+[Link to the live site](https://starranuk.github.io/pls/index.html)
+
+**About**
+
+# Principle Lifting and Safety Ltd
 
 Principle Lifting and Safety (PLS) is a family run company Lifting and Safety Equipment Company with 30 years of experience in the Lifting Industry. Located in Caerphilly South Wales the company has wide customer base that is currently commercial only.
 
@@ -11,65 +14,67 @@ The new website will replace the existing Wordpress site https://www.principleli
 
 **The business goals of this website are:**
 
-Improve PLS’s brand awareness, initially within the South Wales area. Current site has attracted local and visiting contractors in the past, which resulted in sales.
+Improve PLS’s brand awareness, initially within the South Wales area. Current site has attracted local and visiting contractors in the past, which resulted in sales but SEO could be improved.
 
-To provide potential customers with an overview of the goods and services that the company provides, a contact page and alternative methods of contact.
-
-Drive sales in the form of first contact (via the contact page).
-
-Reasons a User/Customer may visit the PLS Website
-
-A potential customer needing to hire lifting or safety equipment.
-
-A potential customer seeking advice in relation to lifting or working at height safety issues.
-
-A potential supplier regarding sales enquiries.
+ - To provide potential customers with an overview of the goods and
+   services that the company provides, a contact page and alternative
+   methods of contact.
+ - Drive sales in the form of first contact (via the contact page).
+ - Reasons a User/Customer may visit the PLS Website
+ - A potential customer needing to hire lifting or safety equipment.
+ - A potential customer seeking advice in relation to lifting or working
+   at height safety issues.
+ - A potential supplier regarding sales enquiries.
 
 **Potential Customers**
 
-Construction industry contractors, Steel Fabrication Companies, Lift Manufacture and Maintenance Companies.
+ - Construction industry contractors, Steel Fabrication Companies, Lift
+   Manufacture and Maintenance Companies.
 
-Any companies needing to hire or purchase Lifting or height safety equipment in the South Wales area.
+ - Any companies needing to hire or purchase Lifting or height safety
+   equipment in the South Wales area.
 
-**Scope**
+## Scope
 
-What a user may expect
+**What a user may expect**
 
-Easy and intuitive website navigation.
-
-That all links within the PLS site work.
-
-Site is understandable and viewable regardless of screen size.
-
-Site looks professional and relevant to the product and nature of the business.
-
-Site provides a method of contact.
+ - Easy and intuitive website navigation.
+ - That all links within the PLS site work.
+ - Site is understandable and viewable regardless of screen size.
+ - Site looks professional and relevant to the product and nature of the
+   business.
+ - Site provides a method of contact.
 
 **What a user may want**
 
-As the majority of trade currently comes from the locality the user would need to know how to physically locate the business.
+ - As the majority of trade currently comes from the locality the user
+   would need to know how to physically locate the business.
 
-To quickly be able to gain a good understanding of the products and services offered by the business.
+ - To quickly be able to gain a good understanding of the products and
+   services offered by the business.
 
-The business would expect the site to provide:
+**The business would expect the site to provide:**
 
-The business would expect the site to provide improved SEO capabilities to encourage the relevant traffic to the site.
+ - The business would expect the site to provide improved SEO
+   capabilities to encourage the relevant traffic to the site.
 
-An overview of products and services offered by the business to current and potential customers.
+ - An overview of products and services offered by the business to
+   current and potential customers.
 
-To provide an easy method of contact for customers and suppliers.
+ - To provide an easy method of contact for customers and suppliers.
 
-Please note the limitations of this site as an assignment project are unable to fully reflect the actual requirements of a business site
+*Please note the limitations of this site as an assignment project are unable to fully reflect the actual requirements of a business site*
 
-**Structure**
+## Structure
 
-The site will consist of:
+**The site will consist of:**
 
-A Home page displaying an overview of products and services offered by the business to current and potential customers.
-
-A Hire products page displaying images and descriptions of the types of hire equipment available for hire.
-
-A Contact page containing a form for users to contact and make enquiries with PLS.
+ - A Home page displaying an overview of products and services offered
+   by the business to current and potential customers.
+ - A Hire products page displaying images and descriptions of the types
+   of hire equipment available for hire.
+ - A Contact page containing a form for users to contact and make
+   enquiries with PLS.
 
 **Design**
 
@@ -78,7 +83,10 @@ I have used the company logo and branding colour scheme throughout the site and 
 Where appropriate transparent background effects were used while still using the branding colours.
 
 **Colour list:**
+rgba(51, 45, 108, .7);
+`#562680``#528``darkslateblue``hsl(272,54%,32%)``rgb(86,38,128)`
 
+`#f8f9fa``#fff``ghostwhite``hsl(210,16%,97%)``rgb(248,249,250)`
 **Typography**
 
 Although I imported Google Fonts I have mainly used Arial and increased the letter spacing on white text and purple backgrounds in the Hero images. ref Code Institute “Love Running” tutorial site
@@ -103,17 +111,49 @@ All images are either the property of the company or provided by equipment suppl
 
 **Site Framework**
 
-**Responsive layout**
+## Responsive layout
 
 The sites responsive design retains the style and branding of the site as screen size change.
 
 I used the Bootstrap Branded Navbar for the site navigation in the header and a Boostrap Grid for hire equipment images.
 
-**Wire Frame**
+## Wire Frame
 
-![Home Page](https://starranuk.github.io/pls/assets/Readme_files/desktop%20index_html.png)
+![Home Page Wire Frame](https://starranuk.github.io/pls/assets/Readme_files/desktop%20index_html.png)
 
-Responsive images screen dumps here
+**Home Page**
+![Hire Page Wire Frame](https://starranuk.github.io/pls/assets/readme_files/wireframe_hire_html.png)
+
+**Hire Page**
+![Contact Wire Frame](https://starranuk.github.io/pls/assets/readme_files/contact_wireframe.png)
+
+
+   <br>
+
+**Contact Page**
+![Mobile Home Page Top](https://starranuk.github.io/pls/assets/readme_files/top_mobile_index_html.PNG)
+**Mobile Home Page Top**
+![Mobile Hire Page Top](https://starranuk.github.io/pls/assets/readme_files/top_mobile_hire_html.png)
+**Mobile Hire Page Top**
+![Mobile Contact Page Top](https://starranuk.github.io/pls/assets/readme_files/top_mobile_contact_html.png)
+**Mobile Contact Page Top**
+![Example Mobile Footer](https://starranuk.github.io/pls/assets/readme_files/bottom_mobile_index_html.PNG)
+**Example Mobile Footer**
+
+## Responsive Page Mockups
+![Home Page Responsive Mock Up](https://starranuk.github.io/pls/assets/readme_files/multi_resp_index_html.png)
+
+
+**Home Page Responsive Mock Up**
+
+![Contact Page Responsive Mockup](https://starranuk.github.io/pls/assets/readme_files/multi_resp_contact_html.png)
+
+ 
+**Home Page Responsive Mock Up**
+
+![Hire Page Responsive Mock Up](https://starranuk.github.io/pls/assets/readme_files/multi_resp_hire_html.png)
+**Hire Page Responsive Mock Up**
+
 
 Common Features
 
@@ -200,5 +240,6 @@ Beutifier – to format code.
 Chrome Developer Tools – testing page responsiveness.
 
 Testing
+
 
 
