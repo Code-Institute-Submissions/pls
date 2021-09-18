@@ -125,7 +125,7 @@ h2,h3 {
 	text-align: center;
 	width: 100%;
 	height: 300px;
-	padding: 40px 0 0 10px;
+	padding: 10px 0 0 10px;
 	position: relative;
 }
 
@@ -149,6 +149,11 @@ iframe {
 	width: 100%;
 }
 
+.brand-color h2 {
+	color:#ffffff;
+	text-align: center;
+}
+
 .hire-item {
 	text-align: center;
 	border-radius: 2%;
@@ -169,7 +174,6 @@ iframe {
 /*Insperation from Code Institute “Love Running” tutorial site*/
 #contact-form-container {
 	background: url("https://starranuk.github.io/pls/assets/images/van2.jpg");
-	padding: 30 0;
     background-size: cover;
   	background-position: center;
   	height: 1200px;
@@ -338,7 +342,14 @@ textarea {
 			font-size: 80%;
 		}
 
-		
+		/*Footer*/
+		.end {
+			width: 100%;	
+		}
+
+	}	
+	
+}
 
 
 
