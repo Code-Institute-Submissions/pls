@@ -1,106 +1,202 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome starranuk,
+<![endif]-->
 
-https://starranuk.github.io/pls/
+**Principle Lifting and Safety Ltd**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+Principle Lifting and Safety (PLS) is a family run company Lifting and Safety Equipment Company with 30 years of experience in the Lifting Industry. Located in Caerphilly South Wales the company has wide customer base that is currently commercial only.
 
-## Gitpod Reminders
+The new website will replace the existing Wordpress site https://www.principlelifting.co.uk/
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**The business goals of this website are:**
 
-`python3 -m http.server`
+Improve PLS’s brand awareness, initially within the South Wales area. Current site has attracted local and visiting contractors in the past, which resulted in sales.
 
-A blue button should appear to click: _Make Public_,
+To provide potential customers with an overview of the goods and services that the company provides, a contact page and alternative methods of contact.
 
-Another blue button should appear to click: _Open Browser_.
+Drive sales in the form of first contact (via the contact page).
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Reasons a User/Customer may visit the PLS Website
 
-A blue button should appear to click: _Make Public_,
+A potential customer needing to hire lifting or safety equipment.
 
-Another blue button should appear to click: _Open Browser_.
+A potential customer seeking advice in relation to lifting or working at height safety issues.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+A potential supplier regarding sales enquiries.
 
-To log into the Heroku toolbelt CLI:
+**Potential Customers**
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Construction industry contractors, Steel Fabrication Companies, Lift Manufacture and Maintenance Companies.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Any companies needing to hire or purchase Lifting or height safety equipment in the South Wales area.
 
-------
+**Scope**
 
-## Release History
+What a user may expect
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Easy and intuitive website navigation.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+That all links within the PLS site work.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Site is understandable and viewable regardless of screen size.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Site looks professional and relevant to the product and nature of the business.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Site provides a method of contact.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+**What a user may want**
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+As the majority of trade currently comes from the locality the user would need to know how to physically locate the business.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+To quickly be able to gain a good understanding of the products and services offered by the business.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The business would expect the site to provide:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The business would expect the site to provide improved SEO capabilities to encourage the relevant traffic to the site.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+An overview of products and services offered by the business to current and potential customers.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+To provide an easy method of contact for customers and suppliers.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Please note the limitations of this site as an assignment project are unable to fully reflect the actual requirements of a business site
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+**Structure**
 
-------
+The site will consist of:
 
-## FAQ about the uptime script
+A Home page displaying an overview of products and services offered by the business to current and potential customers.
 
-**Why have you added this script?**
+A Hire products page displaying images and descriptions of the types of hire equipment available for hire.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+A Contact page containing a form for users to contact and make enquiries with PLS.
 
-**How will this affect me?**
+**Design**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+I have used the company logo and branding colour scheme throughout the site and utilised Google’s “Eye Dropper” extension to pick out the colours from the company logo.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Where appropriate transparent background effects were used while still using the branding colours.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+**Colour list:**
 
-**So….?**
+**Typography**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Although I imported Google Fonts I have mainly used Arial and increased the letter spacing on white text and purple backgrounds in the Hero images. ref Code Institute “Love Running” tutorial site
 
-**Can I opt out?**
+@import url("https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap");
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+**Call to Action**
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+The Bootstrap Navbar text links were increased to h4 to give more emphasis on larger screen sizes and reduced via CSS for small devices.
 
-**Anything more?**
+A link to a popup display
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Contact/Enquiries form on the contact page.
 
----
+Google map in all footers displaying the companies location and includes all the functionality expected from a Google map.
 
-Happy coding!
+**Images**
+
+All images are either the property of the company or provided by equipment suppliers.
+
+**List images**
+
+**Site Framework**
+
+**Responsive layout**
+
+The sites responsive design retains the style and branding of the site as screen size change.
+
+I used the Bootstrap Branded Navbar for the site navigation in the header and a Boostrap Grid for hire equipment images.
+
+**Wire Frame**
+
+![Home Page](https://starranuk.github.io/pls/assets/Readme_files/desktop%20index_html.png)
+
+Responsive images screen dumps here
+
+Common Features
+
+Header
+
+Colours and style match current company branding.
+
+A responsive Bootstrap Navbar with logo provides standard navigation at the top of each page, with the link in the logo linking the user back to the home page from all pages.
+
+The Logo on each page also links back to the Home page.
+
+On mobile devices the Navigation dropdown is located in the top left hand corner of the screen, underneath the company logo and when selected the text links are appropriately sized.
+
+Footer
+
+Identical footers on each page provide a well a link back to the top of the page
+
+consists of three blocks containing:
+
+“Opening Hours” displaying a Monday to Friday list of times and a link to the Hire Association Europe via an image of their logo and which opens in a separate browser window.
+
+“How to find us” containing an inbedded Google map displaying the companies location and includes all the functionality expected from a Google map. Google map idea from Code Institute “Coders Coffee House” tutorial.
+
+Finally the “Address” block contains physical postal address of the company, the Telephone number, email enquiries address and copyright.
+
+Contact Page Feature
+
+The hero image is of one of the company vehicles parked outside the company premisises.
+
+The image zooms forward emphasising an upper and lower text blocks. Insperation for this came from the Code Institute “Love Running” tutorial site.
+
+The images on the Hire page are set in a Bootstrap grid.
+
+The Contact page design is similar to the Home page with the contact also taking inspiration from Code Institute “Love Running” tutorial site.
+
+The Contact page fields are:
+
+First Name - required
+
+Last name – required
+
+Company Name – required
+
+Contact Email Address – required
+
+Purpose of Enquiry – required
+
+Radio buttons for how the enquirer would like to be contacted:
+
+Email – default
+
+Telephone
+
+Either
+
+“Submit” button Post Action https://formdump.codeinstitute.net to provide output example.
+
+Future Features
+
+Sales page for product information and on-line sales.
+
+Inspection page – information on what is required by law, what is best practice and detail on the services that PLS can provide.
+
+Technical Support page with FAQ’s and possible chat facility.
+
+Technology Used
+
+HTML5 – Markup Langauge for structure and functionality.
+
+CSS3 – Cascading Stylsheets for responsiveness and consistant style throughout the site.
+
+Bootstrap 5 – for responsive navigation and image grid.
+
+Google Fonts – for Typography.
+
+GitPod for code editing, saving commits and pushing versions to GitHub.
+
+Git – version controle.
+
+Microsoft Paintbrush – resize images.
+
+Beutifier – to format code.
+
+Chrome Developer Tools – testing page responsiveness.
+
+Testing
+
+
