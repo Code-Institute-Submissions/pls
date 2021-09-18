@@ -15,7 +15,7 @@
    </head>
    <body>
       <header>
-         <!--Header displaying PLS Logo, Title and Telephone Number-->
+        <!--Bootstrap - PLS Logo and Navigation Links-->
          <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
                <a class="navbar-brand" href="index.html">
@@ -51,13 +51,25 @@
 <!-- Products and Services -->
 <div class="row">
    <div class="col-12 col-md-6 col-lg-3">
-      <div class="product">
+      <div class="product">         
          <h3>Hire </h3>
          <p>We offer a comprehensive range of Hoists, Gantries, Winches, Genie Material Lifts, Manual Handling Devices, 
             Jacks and Manhole lifters, confined space equipment and working at height products. 
             Our staff have extensive technical knowledge and are happy to discuss your requirements
             to find the right solution for your application.
          </p>
+         <!-- Ref - https://www.w3schools.com/howto/howto_js_popup.asp-->
+         <div class="popup" onclick="myFunction()">Please Click for Hire Terms
+            <span class="popuptext" id="myPopup">All hire goods are subject to 1 week minimum hire.
+               Additional days are charged at 1/5 of weekly rate.</span>
+          </div> 
+          <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+            }
+            </script>
       </div>
    </div>
    <div class="col-12 col-md-6 col-lg-3">
@@ -71,7 +83,7 @@
    </div>
    <div class="col-12 col-md-6 col-lg-3">
       <div class="product">
-         <h3>Inspections</h3>
+         <h3>Inspection</h3>
          <p>Ensure your lifting and height safety equipment is fully compliant with the Lifting Operations and Lifting Equipment Regulations
             (LOLER) 1998 and the Provisions and Use of Work Equipment Regulations (PUWER) 1998. 
             We can inspect, test and certify all your own equipment.
@@ -99,6 +111,8 @@
                   <li>Thursday:  8.00 - 16.30</li>
                   <li>Friday:    8.00 - 15.30</li>
                </ul>
+               <a href="https://www.hae.org.uk/" target="_blank"><img src="./assets/images/haelogo.png" alt="link to Hire Association Europe (HAE)" style="width:42px;height:42px;"></a>
+               <p><strong>Hire Association Europe (HAE)</strong></p>
             </div>
          </div>
          <div class="col-sm-4">
