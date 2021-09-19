@@ -1,31 +1,34 @@
 
 <![endif]-->
+
+
 ![responsive site](https://starranuk.github.io/pls//assets/readme_files/multi_resp_index_html.png)
+
 
 [Link to the live site](https://starranuk.github.io/pls/index.html)
 
-**About**
+
+## About
 
 # Principle Lifting and Safety Ltd
 
-Principle Lifting and Safety (PLS) is a family run company Lifting and Safety Equipment Company with 30 years of experience in the Lifting Industry. Located in Caerphilly South Wales the company has wide customer base that is currently commercial only.
+Principle Lifting and Safety (PLS) is a family run Lifting and Safety Company with 30 years of experience in the Lifting Industry. Located in Caerphilly, South Wales the company has a wide commercial customer base.
 
 The new website will replace the existing Wordpress site. The site is quite functional and has a the benefit of a contact page but can require regular updates for the plugins.
 The live site is here: https://www.principlelifting.co.uk/
 
-**The business goals of this website are:**
+**The business goals of this website include:**
 
-Improve PLS’s brand awareness, initially within the South Wales area. The current site has attracted local and visiting contractors in the past, which resulted in sales but SEO could be improved.
+Improving PLS brand awareness, initially within the South Wales area. The current site has attracted local and visiting contractors in the past, which resulted in sales. 
 
- - To provide potential customers with an overview of the goods and
-   services that the company provides, a contact page and alternative
+- Search Engine Optimisation (SEO) improvement.
+ - Providing potential customers with an overview of the goods and
+   services offered.
+ - Directing potential customers to a contact page and alternative
    methods of contact.
- - Drive sales in the form of first contact (via the contact page).
- - Reasons a User/Customer may visit the PLS Website
- - A potential customer needing to hire lifting or safety equipment.
- - A potential customer seeking advice in relation to lifting or working
-   at height safety issues.
- - A potential supplier regarding sales enquiries.
+ - Attracting potential customers needing to hire lifting or safety equipment.
+ - Engaging with potential customer seeking advice in relation to lifting or working
+   at height.
 
 **Potential Customers**
 
@@ -54,22 +57,19 @@ Improve PLS’s brand awareness, initially within the South Wales area. The curr
  - To quickly be able to gain a good understanding of the products and
    services offered by the business.
    
-
  - To gain a sense of confidence in the business from the design,
    statements and any affiliations with trade associations.
  
-
  - To find a direct method of contact on the site.
 
 **The business would expect the site to provide:**
 
- - The business would expect the site to provide improved SEO
-   capabilities to encourage the relevant traffic to the site.
+ - Improved SEO capabilities to encourage the relevant traffic to the site.
 
  - An overview of products and services offered by the business to
    current and potential customers.
 
- - To provide an easy method of contact for customers and suppliers.
+ - An easy method of contact for customers and suppliers.
 
 *Please note the limitations of this site as an assignment project are unable to fully reflect the actual requirements of a business site*
 
@@ -80,9 +80,8 @@ Improve PLS’s brand awareness, initially within the South Wales area. The curr
  - A Home page displaying an overview of products and services offered
    by the business to current and potential customers.
  - A Hire products page displaying images and descriptions of the types
-   of hire equipment available for hire.
- - A Contact page containing a form for users to contact and make
-   enquiries with PLS.
+   of equipment available for hire.
+ - A Contact page containing an enquiry form for users to contact PLS.
 
 **Design**
 
@@ -91,52 +90,72 @@ I have used the company logo and branding colour scheme throughout the site and 
 Where appropriate transparent background effects were used while still using the branding colours.
 
 **Colour list:**
-rgba(51, 45, 108, .7);
+
 `#562680``#528``darkslateblue``hsl(272,54%,32%)``rgb(86,38,128)`
 
 `#f8f9fa``#fff``ghostwhite``hsl(210,16%,97%)``rgb(248,249,250)`
+
+
 **Typography**
 
 Although I imported Google Fonts I have mainly used Arial and increased the letter spacing on white text and purple backgrounds in the Hero images. *ref Code Institute “Love Running” tutorial site*
 
 @import url("https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap");
 
+
 **Call to Action**
 
-The Bootstrap Navbar text links were increased to h4 to give more emphasis on larger screen sizes and reduced via CSS for small devices.
+- The Bootstrap Navbar text links were increased to h4 to give more emphasis on larger screen sizes and reduced via CSS for mobile devices.
+To aid navigation the text for the links in the Navbar are coloured Black when on target, with all other links in the Navbar coloured Red.
 
-A link to a popup display
+- A link to a **Popup** displaying the Hire terms is included in the Hire information block below the Hero image.
 
-Contact/Enquiries form on the contact page.
+- Contact/Enquiries form on the contact page encourages the user to engage with PLS.
 
-Google map in all footers displaying the companies location and includes all the functionality expected from a Google map.
+- Google map in all footers displays the company location and includes all the functionality expected from a Google embedded map.
 
-**Images**
+### Images
 
-All images are either the property of the company or provided by equipment suppliers.
+ - All images are either the property of the company or provided by
+   equipment suppliers.
+**Images used:**
+ - pls_logo.png
+ - haelogo.png
+ - van2.jpg
+ - sla15.png
+ - s_harness.png
+ - paltruck.png
+ - minifor.png
+ - leverh_chainb.png
+ - fall_arrest.png
+ - bin.png
+ - beamtrolly.png
 
-**List images**
+## Site Framework
 
-**Site Framework**
+**Responsive layout**
 
-## Responsive layout
+ - The responsive design of the site retains the style and branding as the screen size changes.
+ - I used the Bootstrap 5 Branded Navbar for the site navigation in the
+   header and a Bootstrap Grid for hire equipment images.
 
-The sites responsive design retains the style and branding of the site as screen size change.
-
-I used the Bootstrap Branded Navbar for the site navigation in the header and a Boostrap Grid for hire equipment images.
-
-## Wire Frame
+## Wire Frames
 
 **Home Page**
-![Home Page Wire Frame](https://starranuk.github.io/pls/assets/Readme_files/desktop%20index_html.png)
+
+
+![Home Page Wire Frame](https://starranuk.github.io/pls/assets/readme_files/desktop_index_html.png)
 
 
 **Hire Equipment Page**
+
 
 ![Hire Page Wire Frame](https://starranuk.github.io/pls/assets/readme_files/wireframe_hire_html.png)
 
 
 **Contact Page**
+
+
 ![Contact Wire Frame](https://starranuk.github.io/pls/assets/readme_files/contact_wireframe.png)
 
  
@@ -146,6 +165,7 @@ I used the Bootstrap Branded Navbar for the site navigation in the header and a 
 ![Mobile Home Page Top](https://starranuk.github.io/pls/assets/readme_files/top_mobile_index_html.PNG)
 
 **Mobile Hire Page Top**
+
 
 ![Mobile Hire Page Top](https://starranuk.github.io/pls/assets/readme_files/top_mobile_hire_html.png)
 
@@ -157,18 +177,25 @@ I used the Bootstrap Branded Navbar for the site navigation in the header and a 
 
 **Example Mobile Footer**
 
+
 ![Example Mobile Footer](https://starranuk.github.io/pls/assets/readme_files/bottom_mobile_index_html.PNG)
 
 
 ## Responsive Page Mock Ups
 **Home Page Responsive Mock Up**
+
+
 ![Home Page Responsive Mock Up](https://starranuk.github.io/pls/assets/readme_files/multi_resp_index_html.png)
 
 
-**Home Page Responsive Mock Up**
+**Contact Page Responsive Mock Up**
+
+
 ![Contact Page Responsive Mockup](https://starranuk.github.io/pls/assets/readme_files/multi_resp_contact_html.png)
 
 **Hire Page Responsive Mock Up**
+
+
 ![Hire Page Responsive Mock Up](https://starranuk.github.io/pls/assets/readme_files/multi_resp_hire_html.png)
 
 
@@ -176,36 +203,33 @@ I used the Bootstrap Branded Navbar for the site navigation in the header and a 
 ## Common Features
 
 **Header**
+Identical Headers on each page ensure:
 
  - Colours and style match current company branding.
  - A responsive Bootstrap Navbar with logo provides standard navigation
    at the top of each page, with the link in the logo linking the user
    back to the home page from all pages.
- - The Logo on each page also links back to the Home page.
- - On mobile devices the Navigation dropdown is located in the top left
-   hand corner of the screen, underneath the company logo and when
-   selected the text links are appropriately sized.
+ - The Navigation changes to a dropdown menu on mobile devices.
 
 **Footer**
 
-Identical footers on each page provide a well a link back to the top of the page consists of three blocks containing:
+Identical footers on each page consist of three blocks containing:
 
  - “Opening Hours” displaying a Monday to Friday list of times and a
    link to the Hire Association Europe via an image of their logo and
    which opens in a separate browser window.
- - “How to find us” containing an embedded Google map displaying the
-   companies location and includes all the functionality expected from a
+ - An embedded Google map displaying the company location and includes all the functionality expected from a
    Google map. *Google map idea from Code Institute “Coders Coffee House”
    tutorial.*
- - Finally the “Address” block contains physical postal address of the
-   company, the Telephone number, email enquiries address and copyright.
+ - An Address block containing physical postal address of the
+   company, the Telephone number, email enquiries address and copyright statement.
 
 **Contact Page**
 
  - The hero image is of one of the company vehicles parked outside the
    company premises.
 
- - The image zooms forward emphasising an upper and lower text blocks.
+ - The image zooms forward emphasising upper and lower text blocks.
    Inspiration for this came from the Code Institute “Love Running”
    tutorial site.
 
@@ -234,7 +258,11 @@ Identical footers on each page provide a well a link back to the top of the page
  - Either
 
  - “Submit” button Post Action https://formdump.codeinstitute.net to
+
+
    Output example. 
+
+
    ![Submit output Example](https://starranuk.github.io/pls/assets/readme_files/contact_submit_example.png)
 
 
@@ -249,17 +277,18 @@ Identical footers on each page provide a well a link back to the top of the page
 
 ## Technology Used
 
- - HTML5 – Markup Langauge for structure and functionality.
- - CSS3 – Cascading Stylsheets for responsiveness and consistant style
+ - **HTML5** – Markup Langauge for structure and functionality.
+ - **CSS3** – Cascading Stylsheets for responsiveness and consistant style
    throughout the site.
- - Bootstrap 5 – for responsive navigation and image grid.
- - Google Fonts – for Typography.
- - GitPod for code editing, saving commits and pushing versions to
+ - **Bootstrap 5** – for responsive navigation and image grid.
+ - **Javascript** - utilised for Popup
+ - **Google Fonts** – for Typography.
+ - **GitPod** for code editing, saving commits and pushing versions to
    GitHub.
- - Git – version control.
- - Microsoft Paintbrush – resize images.
- - Beutifier – to format code.
- - Chrome Developer Tools – testing page responsiveness.
+ - **Git** – version control.
+ - **Microsoft Paintbrush** – resize images.
+ - **Beautifier** – to format code.
+ - **Chrome Developer Tools** – testing page responsiveness.
 
 ## Testing
 
@@ -273,19 +302,19 @@ Identical footers on each page provide a well a link back to the top of the page
 
 **Responsiveness**
 
-The responsive ranges I targeted were:
+The responsive ranges targeted were:
 
  - For Desktops @media screen max-width 5000px  
  - For Handheld Touchscreens with screen max-width: 1280px
  - Mobile phones with screen max-width: 414px
- - 
+ 
 **Responsiveness Testing**
 
-Testing was initially carried using the Chrome Developer Tools using the responsive ranges listed above. Further developer tool testing was carried out using the Firefox and Microsoft Edge developer tools.
+- Testing was initially carried using the Chrome Developer Tools using the responsive ranges listed above. Further developer tool testing was carried out using the Firefox and Microsoft Edge developer tools.
 
-The Firefox tools did find an issue with the iPhone 6/7/8 Plus iOS11 screen size which was resolved by increasing the max width to414px.
+- The Firefox tools did find an issue with the iPhone 6/7/8 Plus iOS11 screen size which was resolved by increasing the max width to 414px.
 
-Hardware tested ranged from a Motorola G5s, Samsung Galaxy S5, 10" Amazon Kindle Fire Tablet and a widescreen desktop PC.
+- Hardware tested ranged from a Motorola G5s, Samsung Galaxy S5, 10" Amazon Kindle Fire Tablet and a widescreen desktop PC.
 
 **Browser Testing**
 Browsers used for testing were:
@@ -295,29 +324,39 @@ Browsers used for testing were:
  - Microsoft Edge
  - Amazon Silk
 
-
-
 **Performance Testing**
 Performance tested against Google Lighthouse Developer Tools which were very useful for testing and as an aid to increase performance with it suggested improvements.
 An initial example of poor performance was the Contact page with the following stats:
 
+
 ![Poor Contact Performence](https://starranuk.github.io/pls/assets/readme_files/contact_performence_low.png) 
+
 
 By altering background contrasts, font colours and improving the Metafile content the following was achieved:
 
+
 ![Improved Contact Page Performence](https://starranuk.github.io/pls/assets/readme_files/contact_performence_improved.png)
+
 
 The final tests for the Home and Hire pages are:
 Home Page
 
+
 ![Home Page Preformence](https://starranuk.github.io/pls/assets/readme_files/index_accesability.png)
 
+
 Hire Page
+
+
 ![Hire Page Performence](https://starranuk.github.io/pls/assets/readme_files/hire_performence.png)
+
 
 **The Companies Current WordPress Site**
 
+
 ![enter image description here](https://starranuk.github.io/pls/assets/readme_files/current_pls_website_performence.PNG)
+
+
 ## User Testing
 ### Testing - What a user may expect
 
@@ -393,11 +432,9 @@ All Footers on the display:
  - From the design of the logo to the images used there is a clear
    message to the user of the services provided.
 
-  
  - There is also a logo and link (which opens in a separate browser tab)
    to the Hire Association of Europe (HAE) in all Footers, displaying
    companies affiliation.
-
 
 **To find a direct method of contact on the site.**
  - The Contact page  provide a clear contact and enquiry method, giving
@@ -405,9 +442,8 @@ All Footers on the display:
 
 ### The business would expect the site to provide:
 
-**The business would expect the site to provide improved SEO  capabilities to encourage the relevant traffic to the site.**
-
- - The Home page scored 100 on the Google Lighthouse Developer Tools
+- Improved SEO capabilities to encourage the relevant traffic to the site.
+   The Home page scored 100 on the Google Lighthouse Developer Tools
    compared to a score of 82 for the current site.
 
  **An overview of products and services offered by the business to
@@ -434,17 +470,25 @@ Initially some errors were picked up by the Validator, these ranged from Element
 The following images are the pass results for all three pages:
 
 **Home Page**
+
+
 ![Home Page No Errors](https://starranuk.github.io/pls/assets/readme_files/index_html_no_errors.png)
 
 **Hire Page**
+
+
 ![enter image description here](https://starranuk.github.io/pls/assets/readme_files/hire_html_no_errors.png)
 
 
 **Contact Page**
+
+
 ![enter image description here](https://starranuk.github.io/pls/assets/readme_files/contact_html_no_errors.png)
 
 **CSS Validation**
-Although a few parsing errors were picked CSS code has passed.
+Although a few parsing errors were picked up initially these were resolved and the CSS code has now passed W3C validation with permission to embed their logo's if required.
+
+![enter image description here](https://starranuk.github.io/pls/assets/readme_files/css_passed_w3val.png)
 
 ## Deployment
 
@@ -480,28 +524,24 @@ With the current project open in **GitPod** and all files saved navigate to the 
 Forking the GitHub Repository
 •	When selecting the Fork button the GitHub message displayed was *“Cannot fork because you own this repository and are not a member of any organisations”*
 
-### Cloning
-**Making a Local Clone**
-•	Log into your GitHub then find the gitpod repository
-•	Under the repository name there is a button that says "Clone or download".   	Click on this button.
-•	If cloning with HTTPS "Clone with HTTPS", copy this link.
-•	Open Gitbash
-•	Change the current working directory to the location where you want the cloned directory to be.
-•	Type git clone, and then paste the URL you copied earlier.
-•	  $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-•	  Press - Enter- Your local clone will be created.
-•	  $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-•	          > Cloning into `CI-Clone`...
-•	          > remote: Counting objects: 10, done.
-•	          > remote: Compressing objects: 100% (8/8), done.
-•	          > remove: Total 10 (delta 1), reused 10 (delta 1)
-          > Unpacking objects: 100% (10/10), done.
-
 
 ## Credits
 
 **Acknowledgements**
-•	Brian Macharia- Mentor support, for the advice, tips and guidance, on my first project.
+ - Nicola Tarran for site testing and proof reading.
+ - Brian Macharia- Mentor support, for the advice, tips and guidance, on my first project.
+ - Reference Rebecca Kelsall crypticCaroline/MS1-Plantfactory for ReadMe inspiration and her site reminding me to add a memo field for enquires in my contact from.
+ - Alan at Tutor support
+ - Code Institute for Inspiration from  “Love Running” and “Coders Coffee House” tutorials.
+ - W3Schools - for popup code and snippets
+ - Stack Overflow - for code snippets
+
+
+
+
+
+
+
 
 
 
